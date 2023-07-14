@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Work+Sans:wght@100;300;400;600;800&display=swap');
+*{
+    box-sizing: border-box;
+    font-family: 'Work Sans';
+    margin: 0;
+    padding: 0;
+}
+
+/*ENCABEZADO */
+.contenedor-header{
+    background: #252A2E;
+    position: static;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+.contenedor-header header{
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 15px;
+}
+.contenedor-header header .logo p{
+    font-family: 'Righteous';
+    font-size: 20px;
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+}
+.contenedor-header header .logo h3{
+    font-family: 'Righteous';
+    font-size: 30px;
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+}
+.contenedor-header header .logo img{
+    margin: auto;
+    display: flex;
+    text-decoration: none;
+    text-align: center;
+}
+
+/* SECCION DIVISION */
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 27px;
+    
+    
+}
+
+.card {
+	border-radius: 10px;
+	min-height: 200px;
+	font-weight: bold;
+	padding: 20px;
+	position: relative;
+	overflow: hidden;
+	background-size: cover;
+	background-position: center center;
+    margin-bottom: 30px;
+    background-color: #141815;
+    position: relative;
+   	
+}
+
+.division .grid .card h4{
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-family: 'Calibri';
+}
+.division{
+    background: url(../img/fondo.jpg);
+    color: #fff;
+    padding: 80px 80px;
+    
+}
+
+.division h2{
+    font-size: 22px;
+    font-family: 'Righteous';
+    text-align: center;
+    padding: 20px 0;
+
+}
+
+.division .fila .item{
+    padding: 25px;
+    margin-bottom: 30px;
+    background-color: #181614;
+    position: relative;
+}
+.division .fila .item h4{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+
+/* SECCION FOOTER */
+footer{
+    background-color: #252A2E;
+    color: #fff;
+    padding: 0px;
+    text-align: center;
+    position: relative;
+    width: 100%;
+}
+footer .redes{
+    margin-bottom: 1px;
+}
+footer .redes a{
+    color: #fff;
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid #fff;
+    border-radius: 100%;
+    width: 38px;
+    height: 38px;
+    line-height: 42px;
+    margin: 15px 5px;
+    font-size: 20px;
+    
+}
+
+
+
